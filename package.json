@@ -1,0 +1,28 @@
+{
+  "name": "a02-xcbiuiu",
+  "version": "1.0.0",
+  "description": "create an installable Node.js command line application package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-xcbiuiu.git"
+  },
+  "author": "xcbiuiu",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-xcbiuiu/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-xcbiuiu#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.38",
+    "node-fetch": "^3.2.10"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type":"module"
+}
